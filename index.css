@@ -1,28 +1,44 @@
-#header{
+.header{
     background-color: #A855F7;
     border-radius: 0.5rem 0.5rem 0.5rem 1.2rem;
+    padding-bottom: 0.1rem;
 }
 
-
-#header h1{
+.header-1{
     text-align: center;
-    font-family: cursive;
-    font-weight: bolder;
-    color :paleturquoise;
+    max-width: 500rem;
 }
 
-#header .small-text{
-    text-align: center;;
+.header-1 >h1{
+    color :yellow;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 0.5rem;   
+}
+
+.header-1 >small{
+    padding-top: 0.2rem;
+    font-weight :bolder;
 }
 
 
-
-.li {
-    display: inline;
-    padding : 0.5rem;
+.header >ul{
     text-align: right;
+    list-style: none;
 }
+
+ul >li{
+    display: inline;
+    padding-right : 0.5rem ;
+    margin-bottom: 1rem;
+    }
 
 .link{
     text-decoration: none;
+    color :yellow;
+    border : solid white ;
+    border-radius: 0.3rem;
+    padding : 0rem 0.2rem ;
+
 }
+
+
