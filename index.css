@@ -1,14 +1,28 @@
 #header{
-    text-align: center ;
-    background-color: #06B6D4; 
-    padding: 0.5rem 1rem ;
-    max-width: 500 px;
-    border-color: chartreuse;
-    border-radius: 0.5rem 0.5rem 0.5rem 1.5rem;
-    color: 
-
+    background-color: #A855F7;
+    border-radius: 0.5rem 0.5rem 0.5rem 1.2rem;
 }
 
-.body{
-    background-color: #FCD34D;
+
+#header h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    color :paleturquoise;
+}
+
+#header .small-text{
+    text-align: center;;
+}
+
+
+
+.li {
+    display: inline;
+    padding : 0.5rem;
+    text-align: right;
+}
+
+.link{
+    text-decoration: none;
 }
